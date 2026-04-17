@@ -1,0 +1,17 @@
+name: dephasing-qa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3
+  - scipy=1.16.3
+  - matplotlib
+  - jupyter
+  - notebook
+  - ipykernel
+  - networkx
+  - pip
+  - pip:
+    - qutip==5.2.0
+    - cython
+    - filelock

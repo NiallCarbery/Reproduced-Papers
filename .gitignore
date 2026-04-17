@@ -1,0 +1,177 @@
+# Generic Python .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.out
+*.pdb
+*.ilk
+*.d
+*.dylib
+*.so
+*.cmake
+*.ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.venv_bin/
+env.bak/
+venv.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+junitxml/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Flask instance folder
+instance/
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy / pylance / type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.project
+.metadata
+*.code-workspace
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+
+# Rope
+.ropeproject
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Environment files (may contain secrets)
+.env
+.env.*.local
+
+# Node modules (if frontend present)
+node_modules/
+
+# Ignore compiled assets
+*.pyc
+*.pyo
+
+# latex Build files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.out
+*.gz
+*snm
+*.toc
+*.nav
+*.log
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.xdv
+*.bcf
+*.synctex(busy)
+*.pdf
+*.run.xml
+
+# Ignore old large gap statistics output
+Dephasing/output/GapStats/
+
+# Downloaded Eigen package
+CPP/OptimizedParallel_Cpp/eigen/
